@@ -1,0 +1,31 @@
+body{
+  background-color: lightgray;
+}
+
+
+
+.dogNames{
+        border:solid black 1px;
+        flex-basis: 22%;
+        margin:10px;
+    
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+img{
+    height: 300px;
+    width: 310px;
+    padding:5PX;
+}
+.dogNames div{
+    text-align: center;
+    padding:5px;
+    font-weight: 800;
+    color:black;
+    
+}
